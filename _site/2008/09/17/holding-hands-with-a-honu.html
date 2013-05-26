@@ -12,23 +12,32 @@
     <!-- Custom CSS -->
     <!-- <link rel="stylesheet" href="/css/main.css"> -->
     <script src="/js/custom.modernizr.js"></script>
-    <script src="/js/foundation.min.js"></script>
+    <script src="/js/foundation.js"></script>
     <link rel="stylesheet" href="/css/foundation.css">
+    <link rel="stylesheet" href="/css/site.css">    
   </head>
-    <body>
-      
-      <div class="container">
-        <div class="site">
-          <div class="row">
-            <div class="large-1 columns"></div>
-            <div class="large-7 columns">
-              <h1 class="title"><a href="/">Alan Solidum Blog</a></h1>
-            </div>
+  <body>
+    <header role="banner">
+      <h1 id="logo">Logo</h1>
+      <nav>
+        <ul>
+          <li class="green"><a href="#"><div class="rotate">me</div></a></li>
+          <li class="red"><a href="#"><div class="rotate">you</div></a></li>          
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="site">
+        <div class="row">
+          <div class="large-1 columns"></div>
+          <div class="large-7 columns">
+            <h1 class="title"><a href="/">Alan Solidum Blog</a></h1>
           </div>
-          <a class="extra" href="/">home</a>
         </div>
-          
-          <div class="row">
+        <a class="extra" href="/">home</a>
+      </div>
+      
+      <div class="row">
   <div class="large-1 columns"></div>
   <div class="large-3 coumnns">
     <h2>Holding hands with a Honu</h2>
@@ -73,31 +82,30 @@
 <p>Thanks for watching and we now return you to your regularly scheduled program&#8230;</p>
 </div>
 
-          
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Alan Solidum<br />
-                Software Engineer<br />
-                me@alansolidum.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="http://github.com/asolidum/">github.com/asolidum</a><br />
-                <a href="http://twitter.com/asolidum/">twitter.com/asolidum</a><br />
-              </p>
-            </div>
-          </div>
+      
+      <div class="footer">
+        <div class="contact">
+          <p>
+            Alan Solidum<br />
+            Software Engineer<br />
+            me@alansolidum.com
+          </p>
         </div>
-      </div> <!-- /container -->
-      <script>
-        document.write('<script src=/js/vendor/'
-                                + ('__proto__' in {} ? 'zepto' : 'jquery')
-                                + '.js><\/script>');
+        <div class="contact">
+          <p>
+            <a href="http://github.com/asolidum/">github.com/asolidum</a><br />
+            <a href="http://twitter.com/asolidum/">twitter.com/asolidum</a><br />
+          </p>
+        </div>
+      </div>
+    </div>
+  <script>
+    document.write('<script src=/js/vendor/'
+                            + ('__proto__' in {} ? 'zepto' : 'jquery')
+                            + '.js><\/script>');
         $(document).ready(function() {
-            $(document).foundation();                
+        $(document).foundation();                
         });            
-      </script>
-    </body>
+    </script>
+  </body>
 </html>

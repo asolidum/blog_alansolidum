@@ -1,0 +1,60 @@
+header {
+    height: 200px; }
+
+header h1#logo {
+    float: left;
+    width: 50%; }
+
+header nav {
+    float: right;
+    width: 50%; }
+
+header nav ul li {
+    float: left;
+    width: 33.3%;
+    list-style-type: none;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 150px; }
+
+header nav ul li a {
+    color: #ffffff; }
+
+header nav ul li a:hover {
+    color: #000000; }
+
+header nav ul li.green {
+    background: #00ff00; }
+
+header nav ul li.red {
+    background: #ff0000; }
+
+.rotate {
+    /* Safari, Chrome */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Older versions of IE */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    /* CSS3 standard as defined here: http://www.w3.org/TR/css3-transforms/ */
+    transform: rotate(-90deg); }
+
+@media only screen and (min-width: 48em) {
+    .rotate {
+        /* Safari, Chrome */
+        -webkit-transform: rotate(0deg);
+        /* Firefox */
+        -moz-transform: rotate(0deg);
+        /* IE */
+        -ms-transform: rotate(0deg);
+        /* Opera */
+        -o-transform: rotate(0deg);
+        /* Older versions of IE */
+        /* filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+         CSS3 standard as defined here: http://www.w3.org/TR/css3-transforms/ */
+        transform: rotate(0deg);        
+    } }
