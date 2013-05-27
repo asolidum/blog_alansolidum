@@ -18,5 +18,8 @@ meta:
   _edit_lock: "1289616267"
   _wp_old_slug: ""
   _thumbnail_id: "638"
+image: https://lh5.googleusercontent.com/-xU4AbF1jjOg/UZXY2ajTf2I/AAAAAAAAAOM/YmmDL9pdg1c/w855-h570-no/Grandma-Au-in-sunglasses-looks-like-rap-video.jpg)
 ---
-![](https://lh5.googleusercontent.com/-xU4AbF1jjOg/UZXY2ajTf2I/AAAAAAAAAOM/YmmDL9pdg1c/w855-h570-no/Grandma-Au-in-sunglasses-looks-like-rap-video.jpg)
+Grandma Au in sunglasses dropping her new album and promoting her rap video
+
+![Grandma Au](https://lh5.googleusercontent.com/-xU4AbF1jjOg/UZXY2ajTf2I/AAAAAAAAAOM/YmmDL9pdg1c/w855-h570-no/Grandma-Au-in-sunglasses-looks-like-rap-video.jpg)

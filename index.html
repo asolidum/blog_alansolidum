@@ -12,9 +12,9 @@ title: Silicon Hale Site
         <center><h4>{{ post.title }}</h4></center>
         <hr>
         <img src="{{ post.image }}">
-        <h5>{{ post.date | date_to_string }}</h5>
-        {{ post.excerpt }}
       </a>
+      {{ post.excerpt }}
+      <h5>{{ post.date | date_to_string }}</h5>
     </div>
     {% endfor %}
   </ul>
