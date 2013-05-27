@@ -10,6 +10,7 @@ published: true
 meta:
   _edit_lock: "1249034553"
   _edit_last: "1"
+image: http://being.alansolidum.com/blogs/wp-content/uploads/2007/11/_mg_4392.jpg" alt="_mg_4392.jpg"
 ---
 If the time spent on preparing for a particular festivity is any indication of how much one loves that **c**elebration, I guess it **c**ould be argued that Halloween is my favorite holiday.
 
