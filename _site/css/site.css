@@ -27,10 +27,14 @@ header nav ul li a:hover {
     color: #000000; }
 
 header nav ul li.green {
-    background: #00ff00; }
+    background: #333333; }
 
 header nav ul li.red {
-    background: #ff0000; }
+    background: #555555; }
+
+img.post {
+    width: 700px;
+    padding-bottom: 25px; }
 
 .rotate {
     /* Safari, Chrome */

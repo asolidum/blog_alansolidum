@@ -26,42 +26,30 @@
         </ul>
       </nav>
     </header>
-    <div class="container">
-      <div class="site">
-        <div class="row">
-          <div class="large-1 columns"></div>
-          <div class="large-7 columns">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          </div>
-        </div>
-        <a class="extra" href="/">home</a>
+    {{ content | haml }}
+      
+    <div class="footer">
+      <div class="contact">
+        <p>
+          Alan Solidum<br />
+          Software Engineer<br />
+          me@alansolidum.com
+        </p>
       </div>
-      
-      {{ content | haml }}
-      
-      <div class="footer">
-        <div class="contact">
-          <p>
-            Alan Solidum<br />
-            Software Engineer<br />
-            me@alansolidum.com
-          </p>
-        </div>
-        <div class="contact">
-          <p>
-            <a href="http://github.com/asolidum/">github.com/asolidum</a><br />
-            <a href="http://twitter.com/asolidum/">twitter.com/asolidum</a><br />
-          </p>
-        </div>
+      <div class="contact">
+        <p>
+          <a href="http://github.com/asolidum/">github.com/asolidum</a><br />
+          <a href="http://twitter.com/asolidum/">twitter.com/asolidum</a><br />
+        </p>
       </div>
     </div>
-  <script>
-    document.write('<script src=/js/vendor/'
-                            + ('__proto__' in {} ? 'zepto' : 'jquery')
-                            + '.js><\/script>');
-        $(document).ready(function() {
-        $(document).foundation();                
-        });            
+    <script>
+      document.write('<script src=/js/vendor/'
+                              + ('__proto__' in {} ? 'zepto' : 'jquery')
+                              + '.js><\/script>');
+          $(document).ready(function() {
+          $(document).foundation();                
+          });            
     </script>
   </body>
 </html>

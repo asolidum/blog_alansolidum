@@ -19,35 +19,36 @@ Okay...  Not really since it's a state and federal offense to harass the endang
 Back in March, my good friend Karen decided to run the Maui marathon.  Aside from running 26.2 miles, she also wanted to see some turtles.  So we booked a snorkeling tour with [Trilogy Excursions][te].  I kinda felt like they were a bit on the expensive side but they take you to two snorkeling spots and feed you pretty well.  I also got the kama'aina rate so it ended up being a very good deal.  Their staff is very professional and make sure all your needs are taken care of.
 
 Here's the sailboat they took us in.  It seats about 40-50 people.
-![sailboat]
+<img class="post" src="https://lh5.googleusercontent.com/-8-yv0RzY0pI/UZYFOf2w35I/AAAAAAAAAR4/A_AriHTYCxM/w339-h542-no/_mg_4550.jpg">
 
 This guy swam next to us for like 5 minutes.  I probably took a hundred pics of him....
-
-![turtle1]
+<img class="post" src="https://lh6.googleusercontent.com/-wWKzqbgu_qA/UZYFNgFS_AI/AAAAAAAAAR0/hqxWION76OE/w500-h298-no/_mg_4602.jpg">
 
 So you may be wondering how I know this Honu is a male.  According to my coworker Traci, by looking at the size of tail, one can easily determine the sex of the sea creature.  Apparently, males have larger tails which they use to hold onto females while mating.
-
-![turtle2]
-
-![turtle&karen]
+<div class="large-6 columns">
+<img class="post" src="https://lh6.googleusercontent.com/-MrjLqO88y_8/UZYFOGseO1I/AAAAAAAAASA/_uTeUgU70Ys/w500-h311-no/_mg_4618.jpg">
+</div>
+<div class="large-6 columns">
+<img class="post" src="https://lh3.googleusercontent.com/-LDw_BzuqO3g/UZYFP7kurpI/AAAAAAAAASM/-hJr0iaShgM/w500-h317-no/_mg_4635.jpg">
+</div>
 
 Eventually he got some air then went on his merry way... Probably trying to find Nemo.  Hmmm gotta remember to wipe down the lens port...
-
-![turtlegettingair]
+<img class="post" src="https://lh3.googleusercontent.com/-vtCLWAqAWCU/UZYFPZhmteI/AAAAAAAAASI/DioCsTYnpuw/w500-h285-no/_mg_4627.jpg">
 
 I think we saw about 6-7 other turtles so here are some of the more memorable shots...
-
-![turtle3]
-
-![turtle4]
+<img class="post" src="https://lh3.googleusercontent.com/-d-B_a3eD53Q/UZYFQsOFYSI/AAAAAAAAASU/VjXKsM_wBlQ/w500-h362-no/_mg_4790.jpg">
 
 Some bubbles even formed on the camera lens port while it was submerged...  Grrrrrr....
+<img class="post" src="https://lh6.googleusercontent.com/-WrIk5oBNHkc/UZYFS6e0i7I/AAAAAAAAASs/8objbKrCOZQ/w500-h291-no/_mg_4880.jpg">
 
-![turtle5]
+<div class="large-6 columns">
+<img class="post" src="https://lh3.googleusercontent.com/-MdDsBZpOVBA/UZYFTpXRIGI/AAAAAAAAAS0/Qb7HxrlNrV4/w500-h542-no/_mg_4883.jpg">
+</div>
+<div class="large-6 columns">
+<img class="post" src="https://lh4.googleusercontent.com/-TuJWvIbAC04/UZYFSOQcb1I/AAAAAAAAASk/T8TxdnOcynk/w393-h542-no/_mg_4872.jpg">
+</div>
 
-![turtle6]
-
-![turtle7]
+<img class="post" src="https://lh6.googleusercontent.com/-ZIN9ABZCQcY/UZYFRxRQHKI/AAAAAAAAASg/_8UMRyIgBQk/w500-h387-no/_mg_4796.jpg">
 
 Thanks for watching and we now return you to your regularly scheduled program...
 
