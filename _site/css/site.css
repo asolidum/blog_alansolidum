@@ -36,6 +36,10 @@ img.post {
     width: 700px;
     padding-bottom: 25px; }
 
+body#home posts post {
+    border-width: 5px;
+    }
+
 .rotate {
     /* Safari, Chrome */
     -webkit-transform: rotate(-90deg);

@@ -18,6 +18,7 @@ meta:
   _edit_lock: "1289609675"
   _thumbnail_id: "500"
   _wp_old_slug: ""
+image: https://lh3.googleusercontent.com/-YkecMfda5VI/UZW-SaBEcMI/AAAAAAAAALA/UL-m8N0Tq9M/w748-h569-no/Dolphin-sighting-before-Manta-Ray-night-dive.jpg
 ---
 I'm a big fan of the Manta Ray Night Dive on Kona.  If you're ever on the Big Island, you should check the folks at [Kona Honu Divers][khd].  They are a highly professional outfit and really take care of you.
 

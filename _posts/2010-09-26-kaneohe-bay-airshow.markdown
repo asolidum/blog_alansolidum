@@ -17,6 +17,7 @@ meta:
   _edit_lock: "1291435540"
   _thumbnail_id: "937"
   _wp_old_slug: kaneohe-airshow
+image: https://lh6.googleusercontent.com/-nYU0zv181MI/UZYH7c-nrEI/AAAAAAAAAUI/OpacEz87Fv0/w550-h473-no/Blue-angels-Fleur-de-Lis.jpg
 ---
 My exworker and I went to the [Kaneohe Bay Airshow][kbas].  We did get there a little late but were able to catch a glimpse of an [F-22 Raptor][f22r] which is capable of some pretty crazy maneuvers.  This was followed by a [Blue Angels][ba] demonstration who of course took off to the [Top Gun Anthem][tga].
 

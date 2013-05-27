@@ -11,6 +11,7 @@ published: true
 meta:
   _edit_lock: "1288395141"
   _edit_last: "1"
+image: https://lh4.googleusercontent.com/-vT74rhm2q9U/UZYNcp93hvI/AAAAAAAAAao/SmgYkK_ZmMQ/w271-h533-no/_mg_8388.jpg
 ---
 I was really proud of <a href="http://being.alansolidum.com/blogs/2007/10/31/costume-starts-with-c/">last year's costume</a> and wasn't even gonna try to outdo it this year.  <em>And if you have time, please vote for that costume in the <a href="http://being.alansolidum.com/blogs/2008/11/09/canon-camera-costume-contest/">Instructables DIY Halloween Contest</a></em>.
 

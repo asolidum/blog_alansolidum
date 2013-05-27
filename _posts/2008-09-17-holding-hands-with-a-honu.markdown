@@ -13,6 +13,7 @@ meta:
   _edit_lock: "1289446979"
   _edit_last: "1"
   _thumbnail_id: "41"
+image: https://lh5.googleusercontent.com/-8-yv0RzY0pI/UZYFOf2w35I/AAAAAAAAAR4/A_AriHTYCxM/w339-h542-no/_mg_4550.jpg
 ---
 Okay...  Not really since it's a state and federal offense to harass the endangered Green Sea Turtle but we were close enough to one to feel like we were.  I actually have one photograph of a friend where it looks like she's actually holding hands with a Honu.
 
