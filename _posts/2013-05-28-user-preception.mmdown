@@ -1,0 +1,23 @@
+--- 
+layout: post
+title: User Perception
+tags: 
+- Hawaii
+- News
+status: publish
+type: post
+published: true
+meta: {}
+
+---
+<div class="large-4 columns">
+<progress value="10" max="100" style="width=100%;"></progress>
+</div>
+<div class="large-4 columns">
+<progress value="20" max="100" style="width=100%;"></progress>
+</div>
+<div class="large-4 columns">
+<progress value="40" max="100"></progress>
+</div>
+
+[pr]: http://the.honoluluadvertiser.com/article/2004/May/16/ln/ln03a.html
