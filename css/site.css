@@ -69,3 +69,6 @@ body#home posts post {
          CSS3 standard as defined here: http://www.w3.org/TR/css3-transforms/ */
         transform: rotate(0deg);        
     } }
+
+[class*="foundicon-"] {
+    font-size: 35px; }
