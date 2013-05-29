@@ -6,8 +6,8 @@
     <title>Silicon Hale Site</title>
     <meta name="viewport" content="width=device-width">
     <meta property="og:site_name" content="Alan Solidum Blog" />
-    <meta property="og:title" content="Silicon Hale Site" />
-    <meta property="og:url" content="http://www.siliconhale.com//index.html" />
+    <meta property="og:title" content="Silicon Hale Site " />
+    <meta property="og:url" content="http://///index.html" />
     <meta property="og:image" content="" />
     <meta property="og:description" content="" />
     <!-- syntax highlighting CSS -->
@@ -15,9 +15,19 @@
     
     <!-- Custom CSS -->
     <!-- <link rel="stylesheet" href="/css/main.css"> -->
-    <script src="/js/custom.modernizr.js"></script>
-    <script src="/js/foundation.js"></script>
+    <script>
+      document.write('<script src=/js/vendor/'
+                              + ('__proto__' in {} ? 'zepto' : 'jquery')
+                              + '.js><\/script>');
+          $(document).ready(function() {
+          $(document).foundation();                
+          });            
+    </script>
+    <script src="/js/vendor/custom.modernizr.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/foundation/foundation.clearing.js"></script>    
     <link rel="stylesheet" href="/css/foundation.min.css">
+    <link rel="stylesheet" href="/css/social_foundicons.css">    
     <link rel="stylesheet" href="/css/site.css">    
   </head>
   <body>
@@ -34,14 +44,46 @@
   <ul class="posts">
     
     <div class="post large-4 columns">
+      <a href="/2013/05/28/user-preception.html">
+        <hr>
+        <center><h4>User Perception</h4></center>
+        <hr>
+        <img class="post" src="">
+      </a>
+      <div class="large-4 columns">
+<progress value="10" max="100" style="width=100%;"></progress>
+</div>
+
+<div class="large-4 columns">
+<progress value="20" max="100" style="width=100%;"></progress>
+</div>
+
+<div class="large-4 columns">
+<progress value="40" max="100"></progress>
+</div>
+      <h5>28 May 2013</h5>
+    </div>
+    
+    <div class="post large-4 columns">
       <a href="/2010/09/26/kaneohe-bay-airshow.html">
         <hr>
         <center><h4>Kaneohe Bay Airshow</h4></center>
         <hr>
         <img class="post" src="https://lh6.googleusercontent.com/-nYU0zv181MI/UZYH7c-nrEI/AAAAAAAAAUI/OpacEz87Fv0/w550-h473-no/Blue-angels-Fleur-de-Lis.jpg">
       </a>
-      <p>My exworker and I went to the <a href='http://www.kaneohebayairshow.com'>Kaneohe Bay Airshow</a>. We did get there a little late but were able to catch a glimpse of an <a href='http://en.wikipedia.org/wiki/F-22_Raptor'>F-22 Raptor</a> which is capable of some pretty crazy maneuvers. This was followed by a <a href='http://en.wikipedia.org/wiki/Blue_Angels'>Blue Angels</a> demonstration who of course took off to the <a href='http://en.wikipedia.org/wiki/Top_Gun_Anthem'>Top Gun Anthem</a>.</p>
+      <p>My exworker and I went to the <a href="http://www.kaneohebayairshow.com">Kaneohe Bay Airshow</a>. We did get there a little late but were able to catch a glimpse of an <a href="http://en.wikipedia.org/wiki/F-22_Raptor">F&#8211;22 Raptor</a> which is capable of some pretty crazy maneuvers. This was followed by a <a href="http://en.wikipedia.org/wiki/Blue_Angels">Blue Angels</a> demonstration who of course took off to the <a href="http://en.wikipedia.org/wiki/Top_Gun_Anthem">Top Gun Anthem</a>.</p>
       <h5>26 Sep 2010</h5>
+    </div>
+    
+    <div class="post large-4 columns">
+      <a href="/2010/06/06/mokuleia-forest-reserve-hike.html">
+        <hr>
+        <center><h4>Mokuleia Forest Reserve Hike</h4></center>
+        <hr>
+        <img class="post" src="http://photography.alansolidum.com/gallery/var/resizes/Photos/2010/100606-Makua-Hike/_IMG_1803_05_preview.jpg?m=1282022716">
+      </a>
+      <p>My friend Chad has access to the Mokuleia Forest Reserve and gave us an amazing guided tour.</p>
+      <h5>06 Jun 2010</h5>
     </div>
     
     <div class="post large-4 columns">
@@ -51,7 +93,7 @@
         <hr>
         <img class="post" src="https://lh3.googleusercontent.com/-YkecMfda5VI/UZW-SaBEcMI/AAAAAAAAALA/UL-m8N0Tq9M/w748-h569-no/Dolphin-sighting-before-Manta-Ray-night-dive.jpg">
       </a>
-      <p>I&#8217;m a big fan of the Manta Ray Night Dive on Kona. If you&#8217;re ever on the Big Island, you should check the folks at <a href='http://www.konahonudivers.com'>Kona Honu Divers</a>. They are a highly professional outfit and really take care of you.</p>
+      <p>I&#8217;m a big fan of the Manta Ray Night Dive on Kona. If you&#8217;re ever on the Big Island, you should check the folks at <a href="http://www.konahonudivers.com">Kona Honu Divers</a>. They are a highly professional outfit and really take care of you.</p>
       <h5>29 Nov 2009</h5>
     </div>
     
@@ -73,7 +115,7 @@
         <hr>
         <img class="post" src="http://www.instructables.com/static/img/header/header-robot.png">
       </a>
-      <p>Many of you know that last year I decided to go to dress as a Canon Camera for Halloween. If that is news to you, then click <a href='http://being.alansolidum.com/blogs/2007/10/31/costume-starts-with-c/'>here</a> if you would like to read more about that.</p>
+      <p>Many of you know that last year I decided to go to dress as a Canon Camera for Halloween. If that is news to you, then click <a href="http://being.alansolidum.com/blogs/2007/10/31/costume-starts-with-c/">here</a> if you would like to read more about that.</p>
       <h5>09 Nov 2008</h5>
     </div>
     
@@ -84,7 +126,7 @@
         <hr>
         <img class="post" src="https://lh4.googleusercontent.com/-vT74rhm2q9U/UZYNcp93hvI/AAAAAAAAAao/SmgYkK_ZmMQ/w271-h533-no/_mg_8388.jpg">
       </a>
-      <p>I was really proud of <a href='http://being.alansolidum.com/blogs/2007/10/31/costume-starts-with-c/'>last year's costume</a> and wasn&#8217;t even gonna try to outdo it this year. <em>And if you have time, please vote for that costume in the <a href='http://being.alansolidum.com/blogs/2008/11/09/canon-camera-costume-contest/'>Instructables DIY Halloween Contest</a></em>.</p>
+      <p>I was really proud of <a href="http://being.alansolidum.com/blogs/2007/10/31/costume-starts-with-c/">last year&#8217;s costume</a> and wasn&#8217;t even gonna try to outdo it this year. <em>And if you have time, please vote for that costume in the <a href="http://being.alansolidum.com/blogs/2008/11/09/canon-camera-costume-contest/">Instructables DIY Halloween Contest</a></em>.</p>
       <h5>31 Oct 2008</h5>
     </div>
     
@@ -117,8 +159,20 @@
         <hr>
         <img class="post" src="">
       </a>
-      <p><img alt='sign' src='https://lh6.googleusercontent.com/-jZQHpU6ziOk/UZYWT8QP2_I/AAAAAAAAAcM/AjeWSWbX5uE/w350-h125-no/sign.gif' /> Well more like 3 states in 6 hours but that&#8217;s cause I kept pulling over to take pics. It could probably be done in 3 hours but if you saw what I saw then you&#8217;ll know why it took me longer&#8230;</p>
+      <p><img src="https://lh6.googleusercontent.com/-jZQHpU6ziOk/UZYWT8QP2_I/AAAAAAAAAcM/AjeWSWbX5uE/w350-h125-no/sign.gif" alt="sign" id="sign" />
+Well more like 3 states in 6 hours but that&#8217;s cause I kept pulling over to take pics. It could probably be done in 3 hours but if you saw what I saw then you&#8217;ll know why it took me longer&#8230;</p>
       <h5>08 May 2007</h5>
+    </div>
+    
+    <div class="post large-4 columns">
+      <a href="/2006/07/19/maureen-lances-wedding.html">
+        <hr>
+        <center><h4>Maureen & Lance's Wedding!!!</h4></center>
+        <hr>
+        <img class="post" src="">
+      </a>
+      <p>A photographer&#8217;s job is to truly connect with a subject and capture it&#8217;s essence on film. In a way, a wedding embodies the couple&#8217;s &#8220;soul&#8221; by taking traits and qualities of both the bride and groom. To genuinely tell their wedding story, the photographer must connect with that &#8220;soul&#8221;.</p>
+      <h5>19 Jul 2006</h5>
     </div>
     
     <div class="post large-4 columns">
@@ -128,7 +182,8 @@
         <hr>
         <img class="post" src="">
       </a>
-      <div class='g2image_float_left'><wpg2>tanda/hawaii/cops</wpg2></div>
+      <div class="g2image_float_left"><wpg2>tanda/hawaii/cops</wpg2></div>
+
 <p>Bad Boys!!! Bad Boys!!! Whatcha gonna do?!? Whatcha gonna do when dey come for you?!?</p>
       <h5>13 Mar 2006</h5>
     </div>
@@ -147,18 +202,11 @@
       </div>
       <div class="contact">
         <p>
-          <a href="http://github.com/asolidum/">github.com/asolidum</a><br />
-          <a href="http://twitter.com/asolidum/">twitter.com/asolidum</a><br />
+          <a href="http://facebook.com/alan.solidum/"><i class="social foundicon-facebook"></i></a><br />
+          <a href="http://twitter.com/asolidum/"><i class="social foundicon-twitter"></i></a><br />
+          <a href="http://github.com/asolidum/"><i class="social foundicon-github"></i></a><br />          
         </p>
       </div>
     </div>
-    <script>
-      document.write('<script src=/js/vendor/'
-                              + ('__proto__' in {} ? 'zepto' : 'jquery')
-                              + '.js><\/script>');
-          $(document).ready(function() {
-          $(document).foundation();                
-          });            
-    </script>
   </body>
 </html>
