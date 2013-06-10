@@ -1,12 +1,55 @@
 body {
-    background: #0f0f0f; }
+    min-width: 320px;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    background: #1a1a1a; }
+
+.index {
+    height: 0;
+    border: solid 5px #1a1a1a;
+    background: #3a3a3a; }
+
+@media only screen {
+    .index-small {
+        position: relative;
+        width: 50%;
+        padding-bottom: 50%; }
+
+    .index-large {
+        position: relative;
+        width: 100%;        
+        padding-bottom: 100%; }    
+}
+
+@media only screen and (min-width: 48em) {
+    .index-small {
+        position: relative;
+        width: 33.33333%;
+        padding-bottom: 33.33333%; }
+
+    .index-large {
+        position: relative;
+        width: 66.66667%;
+        padding-bottom: 66.66667%; }
+}
+
+.posts a {
+    color: #999; }
+
+.posts img {
+    display: block;
+    width: 100%; }
 
 header {
+    margin-bottom: 10px;
     height: 200px; }
 
-header h1#logo {
+header .logo {
     float: left;
-    width: 50%; }
+    width: 200px;
+    height: 200px; }
 
 header nav {
     float: right;
@@ -17,28 +60,17 @@ header nav ul li {
     width: 33.3%;
     list-style-type: none;
     text-align: center;
-    color: #ffffff;
     padding-top: 150px; }
 
-header nav ul li a {
-    color: #ffffff; }
-
-header nav ul li a:hover {
-    color: #000000; }
-
-header nav ul li.green {
+header nav ul li.menu1 {
     background: #333333; }
 
-header nav ul li.red {
+header nav ul li.menu2 {
     background: #555555; }
 
-img.post {
-    width: 700px;
+img {
+    width: 100%;
     padding-bottom: 25px; }
-
-body#home posts post {
-    border-width: 5px;
-    }
 
 .rotate {
     /* Safari, Chrome */
@@ -54,6 +86,9 @@ body#home posts post {
     /* CSS3 standard as defined here: http://www.w3.org/TR/css3-transforms/ */
     transform: rotate(-90deg); }
 
+.rotate h3 {
+    padding-left: 50%; }
+
 @media only screen and (min-width: 48em) {
     .rotate {
         /* Safari, Chrome */
@@ -68,7 +103,9 @@ body#home posts post {
         /* filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
          CSS3 standard as defined here: http://www.w3.org/TR/css3-transforms/ */
         transform: rotate(0deg);        
-    } }
+    }
+    .rotate h3 {
+        padding-left: 0%; } }
 
 [class*="foundicon-"] {
     font-size: 35px; }

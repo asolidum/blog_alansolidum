@@ -10,53 +10,24 @@
     <meta property="og:url" content="http://{{ site.baseurl }}/{{ page.url }}" />
     <meta property="og:image" content="{{ page.image }}" />
     <meta property="og:description" content="{{ page.excerpt | markdownify | strip_html }}" />
-    <!-- syntax highlighting CSS -->
-    <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
-    
-    <!-- Custom CSS -->
-    <!-- <link rel="stylesheet" href="/css/main.css"> -->
     <script>
       document.write('<script src=/js/vendor/'
                               + ('__proto__' in {} ? 'zepto' : 'jquery')
                               + '.js><\/script>');
           $(document).ready(function() {
-          $(document).foundation();                
-          });            
+          $(document).foundation(); });
     </script>
     <script src="/js/vendor/custom.modernizr.js"></script>
     <script src="/js/foundation.min.js"></script>
-    <script src="/js/foundation/foundation.clearing.js"></script>    
-    <link rel="stylesheet" href="/css/foundation.min.css">
-    <link rel="stylesheet" href="/css/social_foundicons.css">    
-    <link rel="stylesheet" href="/css/site.css">    
+    <script src="/js/foundation/foundation.clearing.js"></script>
+    <script src="/js/perception.js"></script>    
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link rel="stylesheet" href="/css/social_foundicons.css">
+    <link rel="stylesheet" href="/css/site.css">
   </head>
   <body>
-    <header role="banner">
-      <a href="{{ site.baseurl }}"><h1 id="logo">Logo</h1></a>
-      <nav>
-        <ul>
-          <li class="green"><a href="#"><div class="rotate">me</div></a></li>
-          <li class="red"><a href="#"><div class="rotate">you</div></a></li>          
-        </ul>
-      </nav>
-    </header>
+    {% include header.html %}
     {{ content }}
-      
-    <div class="footer">
-      <div class="contact">
-        <p>
-          Alan Solidum<br />
-          Software Engineer<br />
-          me@alansolidum.com
-        </p>
-      </div>
-      <div class="contact">
-        <p>
-          <a href="http://facebook.com/alan.solidum/"><i class="social foundicon-facebook"></i></a><br />
-          <a href="http://twitter.com/asolidum/"><i class="social foundicon-twitter"></i></a><br />
-          <a href="http://github.com/asolidum/"><i class="social foundicon-github"></i></a><br />          
-        </p>
-      </div>
-    </div>
+    {% include footer.html %}
   </body>
 </html>
