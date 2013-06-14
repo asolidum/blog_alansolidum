@@ -5,7 +5,8 @@ tags:
 - Check this out
 - Humor
 status: publish
-type: post
+type: image
+size: small
 published: true
 meta:
   _edit_lock: "1249034553"

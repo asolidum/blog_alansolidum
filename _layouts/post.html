@@ -1,18 +1,14 @@
 ---
 layout: default
 ---
-<div class="row">
+
+<div class="index-post">
   <div class="small-12 large-12 small-centered large-centered columns">
-    <hr>
-    <center><h3>{{ page.title | upcase }}</h3></center>
-    <hr>
+    <h2><b>{{ page.title | upcase }}</b></h2>
   </div>
-</div>
-<div id="post" class="row">
   <div class="small-12 large-12 columns">
-    {{ content | smilify }}
+    <h4>{{ content | smilify }}</h4>
   </div>
+
+  <p class="meta">{{ page.date | date_to_string }}</p>
 </div>
-
-<p class="meta">{{ page.date | date_to_string }}</p>
-

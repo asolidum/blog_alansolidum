@@ -1,0 +1,15 @@
+---
+layout: default
+title: Silicon Hale Site
+---
+
+<div id="home">
+  <div class="posts">
+    {% for post in site.posts %}
+      {% case post.type %}
+        {% when 'post' %}
+          {% include post.html %}
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
