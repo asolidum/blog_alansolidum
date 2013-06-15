@@ -1,6 +1,7 @@
 <a href="{{ post.url }}">
-  <div class="index index-post index-{{ post.size }} columns">
-    <h1>{{ post.title }}</h1>
-<!--    {{ post.excerpt | strip_html }} -->
+  <div class="index-post large-12 columns">
+    <img class="image-post" src="{{ post.image }}">
+    <h2><b>{{ post.title }}</b></h2>
+    <h4>{{ post.excerpt | strip_html }}</h4>
   </div>
 </a>

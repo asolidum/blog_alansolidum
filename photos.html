@@ -6,10 +6,9 @@ title: Silicon Hale Site
 <div id="home">
   <div class="posts">
     {% for post in site.posts %}
-      {% case post.type %}
-        {% when 'image' %}
-          {% include image.html %}
-      {% endcase %}
+      {% if post.type == 'image' %}
+        {% include image.html %}
+      {% endif %}
     {% endfor %}
   </div>
 </div>

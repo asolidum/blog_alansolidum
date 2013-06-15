@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-
+<div class="fb-like" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial" data-colorscheme="dark"></div>
+<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <div class="index-post">
   <div class="small-12 large-12 small-centered large-centered columns">
-    <h2><b>{{ page.title | upcase }}</b></h2>
+    <h2><b>{{ page.title |  }}</b></h2>
   </div>
   <div class="small-12 large-12 columns">
     <h4>{{ content | smilify }}</h4>
   </div>
-
-  <p class="meta">{{ page.date | date_to_string }}</p>
+  <div class="date">{{ page.date | date_to_string }}</div>
 </div>
