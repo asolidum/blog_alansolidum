@@ -2,13 +2,10 @@
 layout: default
 title: Silicon Hale Site
 ---
-
-<div id="home">
-  <div class="posts">
-    {% for post in site.posts %}
-      {% if post.type == 'post' %}
-        {% include post.html %}
-      {% endif %}
-    {% endfor %}
-  </div>
+<div class="projects">
+  {% for post in site.posts %}
+    {% if post.type == 'post' %}
+      {% include post.html %}
+    {% endif %}
+  {% endfor %}
 </div>

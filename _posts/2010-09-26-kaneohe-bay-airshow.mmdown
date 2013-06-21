@@ -18,25 +18,29 @@ meta:
   _edit_lock: "1291435540"
   _thumbnail_id: "937"
   _wp_old_slug: kaneohe-airshow
-image: https://lh6.googleusercontent.com/-nYU0zv181MI/UZYH7c-nrEI/AAAAAAAAAUI/OpacEz87Fv0/w550-h473-no/Blue-angels-Fleur-de-Lis.jpg
+image: http://farm4.staticflickr.com/3729/9074614779_63a555cb31.jpg
 ---
 My exworker and I went to the [Kaneohe Bay Airshow][kbas].  We did get there a little late but were able to catch a glimpse of an [F-22 Raptor][f22r] which is capable of some pretty crazy maneuvers.  This was followed by a [Blue Angels][ba] demonstration who of course took off to the [Top Gun Anthem][tga].
 
-<div class="large-4 columns" markdown=1>
-![][batf]
-![][f22b]
+<div class="row image-row" markdown=1>
+
+<div class="large-11 columns image-columns" markdown=1>
+![Blue Angels in Tight Formation][batf]
+![Blue Angels Delta Formation][badf]
 </div>
 
-<div class="large-4 columns" markdown=1>
-![][bapw]
-![][bafdl]
-![][bdt]
+{% image_column 9, http://farm3.staticflickr.com/2889/9074539993_b9680b114a.jpg, F22 Raptor Bottom View %}
+
+<div class="large-9 columns image-columns" markdown=1>
+![Blue Angels Pilot Waving][bapw]
+![C17 Transport Plane][c17t]
+![Bulldog Duke on Tank][bdt]
+</div>
+<div class="large-11 columns image-columns" markdown=1>
+![Blue Angels Fleur de Lis.jpg][bafdl]
+![Blue Angels Barrel Roll][babr]
 </div>
 
-<div class="large-4 columns" markdown=1>
-![][c17t]
-![][badf]
-![][babr]
 </div>
 
 <!--- Links -->
@@ -46,11 +50,11 @@ My exworker and I went to the [Kaneohe Bay Airshow][kbas].  We did get there a l
 [tga]: http://en.wikipedia.org/wiki/Top_Gun_Anthem
 
 <!--- Images -->
-[batf]:https://lh6.googleusercontent.com/-_CDpVW625N4/UZYH8PKgN5I/AAAAAAAAAUo/eLl_2Z5K6-4/w540-h339-no/Blue-angels-in-tight-formation.jpg class=post
-[f22b]: https://lh4.googleusercontent.com/-jwLBoflG8GU/UZYH9bpUYSI/AAAAAAAAAUs/_lZ4aAzCXLQ/w400-h533-no/F22-Raptor-bottom-view.jpg class=post
-[badf]: https://lh5.googleusercontent.com/-yNxnaU4u1To/UZYH700Uo8I/AAAAAAAAAUY/ujLkZHN1cdA/w540-h232-no/Blue-angels-in-Delta-formation.jpg class=post
-[bapw]: https://lh5.googleusercontent.com/-hjwr_XvNBhk/UZYH68t0lUI/AAAAAAAAAUE/CJa_VSreXqs/w430-h250-no/Blue-Angels-pilot-waving-at-spectators.jpg class=post
-[bafdl]: https://lh4.googleusercontent.com/-aVbPo1EarqQ/UZYH60AzizI/AAAAAAAAAT8/ew7Ojse6tlw/w500-h304-no/Blue-Angels-barrel-roll.jpg class=post
-[c17t]: https://lh3.googleusercontent.com/-IIlT0bj6XW0/UZYH9YZITkI/AAAAAAAAAUw/Z5Y2tN6BmlQ/w455-h222-no/C20-Transport-engines.jpg class=post
-[babr]: https://lh6.googleusercontent.com/-nYU0zv181MI/UZYH7c-nrEI/AAAAAAAAAUI/OpacEz87Fv0/w550-h473-no/Blue-angels-Fleur-de-Lis.jpg class=post
-[bdt]: https://lh5.googleusercontent.com/-bekBmq9ifss/UZYH8eg4kII/AAAAAAAAAUk/YkGT1iLU_I8/w470-h308-no/Bulldog-Duke-on-tank.jpg class=post
+[batf]: http://farm6.staticflickr.com/5456/9076822964_505a72bb01.jpg
+[f22b]: http://farm3.staticflickr.com/2889/9074539993_b9680b114a.jpg
+[badf]: http://farm8.staticflickr.com/7446/9074601563_c585c9584d.jpg
+[bapw]: http://farm8.staticflickr.com/7446/9074573257_42b0165c5e.jpg
+[c17t]: http://farm8.staticflickr.com/7441/9076886770_4da053cf75.jpg
+[bafdl]: http://farm3.staticflickr.com/2834/9076836370_e153c6877a.jpg
+[babr]: http://farm3.staticflickr.com/2815/9076854428_1a52803f57.jpg
+[bdt]: http://farm3.staticflickr.com/2831/9076869256_cda6d157d2.jpg
