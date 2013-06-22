@@ -13,25 +13,20 @@ status: publish
 type: image
 size: small
 published: true
-meta:
-  _edit_last: "1"
-  _edit_lock: "1290841176"
-  _thumbnail_id: "635"
-  _wp_old_slug: ""
-image: 
+image: http://farm8.staticflickr.com/7326/9077033292_e491c6998b_n.jpg
 ---
 When my good friends Eric and Jen asked me to document their son Ian's first birthday, how could I say no.  Not only would I probably not be in Hawaii if it wasn't for them, but little Ian is soooo cute and you pretty much can't go wrong taking pics of him.
 
 <div class="row image-row" markdown=1>
-{% image_column 8, -30, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/First-1st-Birthday-candle-lit.jpg, First Birthday candle lit %}
-{% image_column 12, 0, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Ian-Kekoa-and-Jen-Chavez-laughing-and-smiling.jpg, Ian Kekoa and Jen Chavez laughing and smiling %}
+{% image_column_no_caption 8, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/First-1st-Birthday-candle-lit.jpg %}
+{% image_column 12, 0, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Ian-Kekoa-and-Jen-Chavez-laughing-and-smiling.jpg, Ian and Jen Chavez having fun %}
 
 {% image_column 20, 0, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Eden-Chun-smiling.jpg, Eden Chun smiling %}
 
-{% image_column 13, 0, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Grandmother-and-grandson-intimate-moment.jpg, Grandmother and grandson share an intimate moment %}
-<div class="large-7 columns image-columns">
-{% image_column 20, 0, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Ian-Kekoa-Birthday-cake.jpg, Ian Kekoa Birthday cake %}
-{% image_column 20, -10, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Ian-Kekoa-reception-setup.jpg, Ian Kekoa reception setup %}
+{% image_column 12, 0, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Grandmother-and-grandson-intimate-moment.jpg, Sharing an intimate moment %}
+<div class="large-8 columns image-columns">
+{% image_column_no_caption 20, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Ian-Kekoa-Birthday-cake.jpg %}
+{% image_column_no_caption 20, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Ian-Kekoa-reception-setup.jpg %}
 </div>
 
 {% image_column 20, 0, http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Eric-Ian-Kekoa-and-Jen-Chavez-family-at-Filipino-Community-Center.jpg, Eric, Ian Kekoa and Jen Chavez family at Waipahu Filipino Community Center %}
