@@ -136,19 +136,16 @@ header nav ul li.menu4 {
 .image-columns img {
     width: 100%;
     padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 10px; }
+    padding-right: 5px; }
 
 .text-overlay {
-    position: absolute;
+    position: relative;
     border-left: 5px solid #3a3a3a;
     border-right: 5px solid #3a3a3a;    
-    padding-left: 10px;
-    bottom: 1.5em;
+    padding: .25em;
+    margin-bottom: 10px;
     width: 100%;
-    background: #000000;
-    color: #FFFFFF;
-    opacity: .65; }
+    background: #1a1a1a; }
 
 .rotate {
     /* Safari, Chrome */

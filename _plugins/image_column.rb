@@ -2,16 +2,17 @@ module Jekyll
   class ImageColumnTag < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
-      split_text = text.split(',', 3)
+      split_text = text.split(',', 4)
       @num_cols = split_text[0]
-      @url = split_text[1]
-      @text = split_text[2] 
+      @offset = split_text[1]
+      @url = split_text[2]
+      @text = split_text[3] 
     end
 
     def render(context)
       "<div class='large-#{@num_cols} columns image-columns'>
          <img src='#{@url}'>
-         <div class='text-overlay'>
+         <div class='text-overlay' style='margin-top: #{@offset}px;'>
            #{@text}
          </div>
        </div>"
