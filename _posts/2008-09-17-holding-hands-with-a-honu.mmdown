@@ -17,10 +17,10 @@ Okay...  Not really since it's a state and federal offense to harass the endang
 Back in March, my good friend Karen decided to run the Maui marathon.  Aside from running 26.2 miles, she also wanted to see some turtles.  So we booked a snorkeling tour with [Trilogy Excursions][te].  I kinda felt like they were a bit on the expensive side but they take you to two snorkeling spots and feed you pretty well.  I also got the kama'aina rate so it ended up being a very good deal.  Their staff is very professional and make sure all your needs are taken care of.
 
 <div class="row image-row" markdown=1>
-{% image_column 9, 0, https://lh5.googleusercontent.com/-8-yv0RzY0pI/UZYFOf2w35I/AAAAAAAAAR4/A_AriHTYCxM/w339-h542-no/_mg_4550.jpg, Seats maybe 40-50 peeps %}
+{% image_column 9, https://lh5.googleusercontent.com/-8-yv0RzY0pI/UZYFOf2w35I/AAAAAAAAAR4/A_AriHTYCxM/w339-h542-no/_mg_4550.jpg, 0, Seats maybe 40-50 peeps %}
 <div class="large-11 columns image-columns">
-{% image_column 20, 0, https://lh6.googleusercontent.com/-MrjLqO88y_8/UZYFOGseO1I/AAAAAAAAASA/_uTeUgU70Ys/w500-h311-no/_mg_4618.jpg, He swam next to us for 5 mins %}
-{% image_column 20, -30, https://lh3.googleusercontent.com/-LDw_BzuqO3g/UZYFP7kurpI/AAAAAAAAASM/-hJr0iaShgM/w500-h317-no/_mg_4635.jpg, I probably took 100 pics of him %}
+{% image_column 20, https://lh6.googleusercontent.com/-MrjLqO88y_8/UZYFOGseO1I/AAAAAAAAASA/_uTeUgU70Ys/w500-h311-no/_mg_4618.jpg, 0, He swam next to us for 5 mins %}
+{% image_column 20, https://lh3.googleusercontent.com/-LDw_BzuqO3g/UZYFP7kurpI/AAAAAAAAASM/-hJr0iaShgM/w500-h317-no/_mg_4635.jpg, -30, I probably took 100 pics of him %}
 </div>
 </div>
 
@@ -30,10 +30,10 @@ Eventually he got some air then went on his merry way... Probably trying to find
 
 <div class="row image-row" markdown=1>
 <div class="large-10 columns image-columns">
-{% image_column 20, -30, https://lh3.googleusercontent.com/-vtCLWAqAWCU/UZYFPZhmteI/AAAAAAAAASI/DioCsTYnpuw/w500-h285-no/_mg_4627.jpg, NOTE: Wipe down lens port %}
+{% image_column 20, https://lh3.googleusercontent.com/-vtCLWAqAWCU/UZYFPZhmteI/AAAAAAAAASI/DioCsTYnpuw/w500-h285-no/_mg_4627.jpg, -30, NOTE: Wipe down lens port %}
 </div>
 <div class="large-10 columns image-columns">
-{% image_column_no_caption 20, https://lh6.googleusercontent.com/-wWKzqbgu_qA/UZYFNgFS_AI/AAAAAAAAAR0/hqxWION76OE/w500-h298-no/_mg_4602.jpg %}
+{% image_column 20, https://lh6.googleusercontent.com/-wWKzqbgu_qA/UZYFNgFS_AI/AAAAAAAAAR0/hqxWION76OE/w500-h298-no/_mg_4602.jpg %}
 </div>
 </div>
 
@@ -41,18 +41,18 @@ I think we saw about 6-7 other turtles so here are some of the more memorable sh
 
 <div class="row image-row" markdown=1>
 <div class="large-20 columns image-columns">
-{% image_column_no_caption 20, https://lh3.googleusercontent.com/-d-B_a3eD53Q/UZYFQsOFYSI/AAAAAAAAASU/VjXKsM_wBlQ/w500-h362-no/_mg_4790.jpg %}
+{% image_column 20, https://lh3.googleusercontent.com/-d-B_a3eD53Q/UZYFQsOFYSI/AAAAAAAAASU/VjXKsM_wBlQ/w500-h362-no/_mg_4790.jpg %}
 </div>
 </div>
 
 <div class="row image-row" markdown=1>
 <div class="large-10 columns image-columns">
-{% image_column_no_caption 20, https://lh6.googleusercontent.com/-WrIk5oBNHkc/UZYFS6e0i7I/AAAAAAAAASs/8objbKrCOZQ/w500-h291-no/_mg_4880.jpg %}
-{% image_column_no_caption 20, https://lh4.googleusercontent.com/-TuJWvIbAC04/UZYFSOQcb1I/AAAAAAAAASk/T8TxdnOcynk/w393-h542-no/_mg_4872.jpg %}
+{% image_column 20, https://lh6.googleusercontent.com/-WrIk5oBNHkc/UZYFS6e0i7I/AAAAAAAAASs/8objbKrCOZQ/w500-h291-no/_mg_4880.jpg %}
+{% image_column 20, https://lh4.googleusercontent.com/-TuJWvIbAC04/UZYFSOQcb1I/AAAAAAAAASk/T8TxdnOcynk/w393-h542-no/_mg_4872.jpg %}
 </div>
 <div class="large-10 columns image-columns">
-{% image_column 20, 0, https://lh3.googleusercontent.com/-MdDsBZpOVBA/UZYFTpXRIGI/AAAAAAAAAS0/Qb7HxrlNrV4/w500-h542-no/_mg_4883.jpg, Grrr! Bubbles on lens port %}
-{% image_column_no_caption 20, https://lh6.googleusercontent.com/-ZIN9ABZCQcY/UZYFRxRQHKI/AAAAAAAAASg/_8UMRyIgBQk/w500-h387-no/_mg_4796.jpg %}
+{% image_column 20, https://lh3.googleusercontent.com/-MdDsBZpOVBA/UZYFTpXRIGI/AAAAAAAAAS0/Qb7HxrlNrV4/w500-h542-no/_mg_4883.jpg, 0, Grrr! Bubbles on lens port %}
+{% image_column 20, https://lh6.googleusercontent.com/-ZIN9ABZCQcY/UZYFRxRQHKI/AAAAAAAAASg/_8UMRyIgBQk/w500-h387-no/_mg_4796.jpg %}
 </div>
 </div>
 

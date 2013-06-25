@@ -25,19 +25,19 @@ My exworker and I went to the [Kaneohe Bay Airshow][kbas].  We did get there a l
 <div class="row image-row" markdown=1>
 
 <div class="large-11 columns image-columns" markdown=1>
-{% image_column 20, -15, http://farm6.staticflickr.com/5456/9076822964_505a72bb01.jpg, Blue Angels in Tight Formation %}
-{% image_column 20, -30, http://farm8.staticflickr.com/7446/9074601563_c585c9584d.jpg, Blue Angels Delta Formation %}
+{% image_column 20, http://farm6.staticflickr.com/5456/9076822964_505a72bb01.jpg, -15, Blue Angels in Tight Formation %}
+{% image_column 20, http://farm8.staticflickr.com/7446/9074601563_c585c9584d.jpg, -30, Blue Angels Delta Formation %}
 </div>
-{% image_column 9, 0, http://farm3.staticflickr.com/2889/9074539993_b9680b114a.jpg, F22 Raptor Bottom View %}
+{% image_column 9, http://farm3.staticflickr.com/2889/9074539993_b9680b114a.jpg, 0, F22 Raptor Bottom View %}
 
 <div class="large-9 columns image-columns" markdown=1>
-{% image_column 20, -10, http://farm8.staticflickr.com/7446/9074573257_42b0165c5e.jpg, Blue Angels Pilot Waving %}
-{% image_column 20, 0, http://farm8.staticflickr.com/7441/9076886770_4da053cf75.jpg, C17 Transport Plane %}
-{% image_column 20, -10, http://farm3.staticflickr.com/2831/9076869256_cda6d157d2.jpg, Bulldog Duke on Tank %}
+{% image_column 20, http://farm8.staticflickr.com/7446/9074573257_42b0165c5e.jpg, -10, Blue Angels Pilot Waving %}
+{% image_column 20, http://farm8.staticflickr.com/7441/9076886770_4da053cf75.jpg, 0, C17 Transport Plane %}
+{% image_column 20, http://farm3.staticflickr.com/2831/9076869256_cda6d157d2.jpg, -10, Bulldog Duke on Tank %}
 </div>
 <div class="large-11 columns image-columns" markdown=1>
-{% image_column 20, 0, http://farm3.staticflickr.com/2834/9076836370_e153c6877a.jpg, Blue Angels Fleur de Lis %}
-{% image_column 20, 0, http://farm3.staticflickr.com/2815/9076854428_1a52803f57.jpg, Blue Angels Barrel Roll %}
+{% image_column 20, http://farm3.staticflickr.com/2834/9076836370_e153c6877a.jpg, 0, Blue Angels Fleur de Lis %}
+{% image_column 20, http://farm3.staticflickr.com/2815/9076854428_1a52803f57.jpg, 0, Blue Angels Barrel Roll %}
 </div>
 
 </div>
