@@ -35,8 +35,13 @@ module Jekyll
       parsed = JSON.parse(resp[14..-2])
       images = parsed["sizes"]["size"]
       span = "<span data-picture>"
+      span += get_flickr_image_span(images[3])      
       span += get_flickr_image_span(images[4])
+      span += get_flickr_image_span(images[5])
+      span += get_flickr_image_span(images[6])            
       span += get_flickr_image_span(images[7])
+      span += get_flickr_image_span(images[8])
+      span += get_flickr_image_span(images[9])            
       if !images[10].nil?
         span += get_flickr_image_span(images[10])
       end
