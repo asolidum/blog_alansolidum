@@ -18,17 +18,17 @@ image: http://farm8.staticflickr.com/7326/9077033292_e491c6998b_n.jpg
 When my good friends Eric and Jen asked me to document their son Ian's first birthday, how could I say no.  Not only would I probably not be in Hawaii if it wasn't for them, but little Ian is soooo cute and you pretty much can't go wrong taking pics of him.
 
 <div class="row image-row" markdown=1>
-{% image_column :cols=>"8", :url=>"http://photography.alansolidum.com/site/wp-content/uploads/2010/07/First-1st-Birthday-candle-lit.jpg" %}
-{% image_column :cols=>"12", :url=>"http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Ian-Kekoa-and-Jen-Chavez-laughing-and-smiling.jpg", :caption=>"Ian and Jen Chavez having fun" %}
+{% image_column :cols=>"8", :flickr_id=>"9074834985" %}
+{% image_column :cols=>"12", :flickr_id=>"9074811681", :caption=>"Ian and Jen Chavez having fun" %}
 
-{% image_column :url=>"http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Eden-Chun-smiling.jpg", :caption=>"Eden Chun smiling" %}
+{% image_column :flickr_id=>"9074861933", :caption=>"Eden Chun smiling" %}
 
-{% image_column :cols=>"12", :url=>"http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Grandmother-and-grandson-intimate-moment.jpg", :caption=>"Sharing an intimate moment" %}
+{% image_column :cols=>"12", :flickr_id=>"9077010726", :caption=>"Sharing an intimate moment" %}
 <div class="large-8 columns image-columns">
-{% image_column :url=>"http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Ian-Kekoa-Birthday-cake.jpg" %}
-{% image_column :url=>"http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Ian-Kekoa-reception-setup.jpg" %}
+{% image_column :flickr_id=>"9074793759" %}
+{% image_column :flickr_id=>"9074773853" %}
 </div>
 
-{% image_column :url=>"http://photography.alansolidum.com/site/wp-content/uploads/2010/07/Eric-Ian-Kekoa-and-Jen-Chavez-family-at-Filipino-Community-Center.jpg", :caption=>"Eric, Ian Kekoa and Jen Chavez family at Waipahu Filipino Community Center" %}
+{% image_column :flickr_id=>"9077095340", :caption=>"Eric, Ian Kekoa and Jen Chavez family at Waipahu Filipino Community Center" %}
 
 </div>
