@@ -3,7 +3,7 @@ require 'pathname'
 module Jekyll
     module Filters
         def smilify(text)
-            sitecontext = @context.registers[:site];
+            sitecontext = @context.registers[:site]
 
             theme = sitecontext.config['smileytheme']
             mappath = (Pathname.new(sitecontext.source) + "_includes/smileys").expand_path
