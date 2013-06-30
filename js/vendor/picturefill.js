@@ -5,12 +5,19 @@
 	// Enable strict mode
 	"use strict";
 
+        w.realMatchMedia = function(width, media) {
+          var pixels = media.substring(12, media.length-3);
+          return pixels > width;
+//          return (w.matchMedia && w.matchMedia( media ).matches ); 
+          }
+
 	w.picturefill = function() {
 		var ps = w.document.getElementsByTagName( "span" );
 
 		// Loop the pictures
 		for( var i = 0, il = ps.length; i < il; i++ ){
 			if( ps[ i ].getAttribute( "data-picture" ) !== null ){
+	                  var width = ps[ i ].parentNode.offsetWidth;
 
 				var sources = ps[ i ].getElementsByTagName( "span" ),
 					matches = [];
@@ -19,7 +26,7 @@
 				for( var j = 0, jl = sources.length; j < jl; j++ ){
 					var media = sources[ j ].getAttribute( "data-media" );
 					// if there's no media specified, OR w.matchMedia is supported 
-					if( !media || ( w.matchMedia && w.matchMedia( media ).matches ) ){
+					if( !media || ( realMatchMedia( width, media ))){
 						matches.push( sources[ j ] );
 					}
 				}
