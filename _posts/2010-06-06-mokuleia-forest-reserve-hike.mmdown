@@ -8,32 +8,16 @@ status: publish
 type: image
 size: small
 published: true
-meta:
-  _edit_lock: "1289447025"
-  _edit_last: "1"
-  _wp_old_slug: ""
-  _thumbnail_id: "153"
-image: http://farm3.staticflickr.com/2818/8976752744_861b8fae5d_q.jpg
+image: http://farm8.staticflickr.com/7365/9139649224_9803253339_q.jpg
 ---
 My friend Chad has access to the Mokuleia Forest Reserve and gave us an amazing guided tour.
 
-Makua Valley... You really need to see it in person... 
-![][makua]
-
-The beginning part of our hike
-![][starthike]
-
-Our view for lunch
-![][lunchview]
-
-Don't know what these are called but there yummers
-![][yummers]
-
-I don't believe in a lot of things, but I do believe in duct tape! - Miles Straume
-![][ductshoes]
-
-[makua]: http://photography.alansolidum.com/gallery/var/resizes/Photos/2010/100606-Makua-Hike/_IMG_1803_05_preview.jpg?m=1282022716
-[starthike]: http://photography.alansolidum.com/gallery/var/resizes/Photos/2010/100606-Makua-Hike/_MG_1778.jpg?m=1282022394
-[lunchview]: http://photography.alansolidum.com/gallery/var/resizes/Photos/2010/100606-Makua-Hike/_MG_1823.jpg?m=1282040040
-[yummers]: http://photography.alansolidum.com/gallery/var/resizes/Photos/2010/100606-Makua-Hike/_MG_1828.jpg?m=1282042574
-[ductshoes]: http://photography.alansolidum.com/gallery/var/resizes/Photos/2010/100606-Makua-Hike/_MG_1845.jpg?m=1282043237
+<div class="row image-row">
+{% image_column :flickr_id=>"9134635062", :caption=>"The beginning part of our hike" %}
+{% image_column :cols=>"13", :flickr_id=>"9134628728", :caption=>"Our landing party... Luckily we all made it back, even Daniel in the red shirt." %}
+{% image_column :cols=>"7", :flickr_id=>"9132430483", :caption=>"Ummm... Interesting." %}
+{% image_column :flickr_id=>"9139649224", :caption=>"Makua Valley... You really need to see it in person..." %}
+{% image_column :flickr_id=>"9139655876", :caption=>"Our view for lunch" %}
+{% image_column :flickr_id=>"9139672364", :caption=>"Don't know what these are called but they were yummers" %}
+{% image_column :flickr_id=>"9137451441", :caption=>"I don't believe in a lot of things, but I do believe in duct tape! - Miles Straume" %}
+</div>
