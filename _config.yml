@@ -2,3 +2,7 @@ name: Alan Solidum Blog
 pygments: true
 timezone: Pacific/Honolulu
 smileytheme: MSN
+
+assets:
+  compress:
+    js:   uglifier

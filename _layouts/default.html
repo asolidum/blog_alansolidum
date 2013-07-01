@@ -10,6 +10,8 @@
     <meta property="og:url" content="http://{{ site.baseurl }}/{{ page.url }}" />
     <meta property="og:image" content="{{ page.image }}" />
     <meta property="og:description" content="{{ page.excerpt | markdownify | strip_html }}" />
+    {% stylesheet app %}
+    <link href="http://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">    
     <script>
       document.write('<script src=/js/vendor/'
                               + ('__proto__' in {} ? 'zepto' : 'jquery')
@@ -17,15 +19,8 @@
           $(document).ready(function() {
           $(document).foundation(); });
     </script>
-    <script src="/js/vendor/custom.modernizr.js"></script>
-    <script src="/js/vendor/picturefill.js"></script>    
-    <script src="/js/foundation.min.js"></script>
-    <script src="/js/foundation/foundation.clearing.js"></script>
+    {% javascript app %}
     {% include google.html %}
-    <link rel="stylesheet" href="/css/foundation.css">
-    <link rel="stylesheet" href="/css/social_foundicons.css">
-    <link rel="stylesheet" href="/css/site.css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">    
   </head>
   <body>
     {% include facebook.html %}

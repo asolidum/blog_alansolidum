@@ -6,7 +6,7 @@ Jekyll powered blog
 Update - Push out your changes to master
 Publish - Run deploy.sh
 
-Using Ruby 1.8.7
+Using Ruby 1.9.2
 
 To fork
 =======
