@@ -123,6 +123,12 @@ header nav ul li.menu3 {
 header nav ul li.menu4 {
     background: #999999; }
 
+footer.row {
+    margin-top: 23px; }
+
+.contact {
+    margin-bottom: 10px; }
+
 .image-row {
     padding-left: 10px;
     padding-right: 10px; }
@@ -184,3 +190,6 @@ header nav ul li.menu4 {
 
 [class*="foundicon-"] {
     font-size: 35px; }
+
+.foundicon-mail, .foundicon-inbox, .foundicon-phone {
+    font-size: 20px; }
