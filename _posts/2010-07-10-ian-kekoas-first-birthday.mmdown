@@ -23,7 +23,7 @@ When my good friends Eric and Jen asked me to document their son Ian's first bir
 
 {% image_column :flickr_id=>"9074861933", :caption=>"Eden Chun smiling" %}
 
-{% image_column :cols=>"19", :flickr_id=>"9077010726", :offset=>"-30px", :caption=>"Sharing an intimate moment" %}
+{% image_column :cols=>"15", :flickr_id=>"9077010726", :offset=>"-30", :caption=>"Sharing an intimate moment" %}
 <div class="large-9 columns image-columns">
 {% image_column :flickr_id=>"9074793759" %}
 {% image_column :flickr_id=>"9074773853" %}
