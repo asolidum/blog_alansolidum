@@ -6,3 +6,4 @@ smileytheme: MSN
 assets:
   compress:
     js:   uglifier
+    css:  sass

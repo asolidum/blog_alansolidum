@@ -5,3 +5,4 @@ gem 'json'
 gem 'jekyll-assets'
 
 gem 'uglifier'
+gem 'sass'
