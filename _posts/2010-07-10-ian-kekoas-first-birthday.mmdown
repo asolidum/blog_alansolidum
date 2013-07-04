@@ -18,13 +18,13 @@ image: http://farm8.staticflickr.com/7326/9077033292_e491c6998b_n.jpg
 When my good friends Eric and Jen asked me to document their son Ian's first birthday, how could I say no.  Not only would I probably not be in Hawaii if it wasn't for them, but little Ian is soooo cute and you pretty much can't go wrong taking pics of him.
 
 <div class="row image-row" markdown=1>
-{% image_column :cols=>"8", :flickr_id=>"9074834985" %}
-{% image_column :cols=>"12", :flickr_id=>"9074811681", :caption=>"Ian and Jen Chavez having fun" %}
+{% image_column :cols=>"9", :flickr_id=>"9074834985", :caption=>"1st Bday candle" %}
+{% image_column :cols=>"15", :flickr_id=>"9074811681", :caption=>"Ian & Jen Chavez laughing" %}
 
 {% image_column :flickr_id=>"9074861933", :caption=>"Eden Chun smiling" %}
 
-{% image_column :cols=>"12", :flickr_id=>"9077010726", :caption=>"Sharing an intimate moment" %}
-<div class="large-8 columns image-columns">
+{% image_column :cols=>"19", :flickr_id=>"9077010726", :offset=>"-30px", :caption=>"Sharing an intimate moment" %}
+<div class="large-9 columns image-columns">
 {% image_column :flickr_id=>"9074793759" %}
 {% image_column :flickr_id=>"9074773853" %}
 </div>

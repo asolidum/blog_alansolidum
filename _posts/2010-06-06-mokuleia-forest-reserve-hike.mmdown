@@ -14,8 +14,8 @@ My friend Chad has access to the Mokuleia Forest Reserve and gave us an amazing 
 
 <div class="row image-row">
 {% image_column :flickr_id=>"9134635062", :caption=>"The beginning part of our hike" %}
-{% image_column :cols=>"13", :flickr_id=>"9134628728", :caption=>"Our landing party... Luckily we all made it back, even Daniel in the red shirt." %}
-{% image_column :cols=>"7", :flickr_id=>"9132430483", :caption=>"Ummm... Interesting." %}
+{% image_column :cols=>"16", :offset=>"-30", :flickr_id=>"9134628728", :caption=>"Our landing party... Luckily we all made it back, even Daniel in the red shirt." %}
+{% image_column :cols=>"8", :flickr_id=>"9132430483", :caption=>"Uhh... Interesting." %}
 {% image_column :flickr_id=>"9139649224", :caption=>"Makua Valley... You really need to see it in person..." %}
 {% image_column :flickr_id=>"9139655876", :caption=>"Our view for lunch" %}
 {% image_column :flickr_id=>"9139672364", :caption=>"Don't know what these are called but they were yummers" %}
