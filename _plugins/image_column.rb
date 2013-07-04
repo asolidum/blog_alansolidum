@@ -9,7 +9,7 @@ module Jekyll
       # Using eval okay cause we precompile the site before deploying
       @params = eval('{'+text+'}')
       
-      @params[:cols] ||= 20
+      @params[:cols] ||= 24
       @params[:offset] ||= 0
       @params[:flickr_id] ||= "9131978755"
 
