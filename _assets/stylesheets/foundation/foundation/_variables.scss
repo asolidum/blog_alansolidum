@@ -28,9 +28,9 @@ $em-base: 16px !default;
 
 $default-float: left;
 
-// $body-bg: #fff;
-// $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-bg: #1a1a1a;
+// $body-font-color: #f2f2f2;
+$body-font-family: "Lato Hairline", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -140,7 +140,7 @@ $total-columns: 24;
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: #f2f2f2;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
@@ -148,10 +148,10 @@ $total-columns: 24;
 
 // Heading font sizes
 
-// $h1-font-size: emCalc(44px);
-// $h2-font-size: emCalc(37px);
-// $h3-font-size: emCalc(27px);
-// $h4-font-size: emCalc(23px);
+$h1-font-size: emCalc(54px);
+$h2-font-size: emCalc(47px);
+$h3-font-size: emCalc(27px);
+$h4-font-size: emCalc(23px);
 // $h5-font-size: emCalc(18px);
 // $h6-font-size: 1em;
 

@@ -16,38 +16,21 @@ body {
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 10px;
-    font-family: 'Lato Hairline', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    background: #1a1a1a; }
+    padding: 0 10px; }
 
 h1, h2, h3, h4, b {
-    color: #f2f2f2;
     font-family: 'Lato Hairline', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
-
-h1 {
-    font-size: 4.5em; }
-
-h2 {
-    font-size: 3em; }
-
-h3 {
-    font-size: 2.0em; }
-
-h4 {
-    font-size: 1.5em; }
 
 b {
     color: #cccccc; }
 
 .index {
-/*     height: 0; */
     border: solid 5px #1a1a1a; }
 
 .index-post {
     background: #3a3a3a; }
 
 .image-post {
-/*    float: left; */
     padding: 10px;
     width: 200px; }
 

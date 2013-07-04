@@ -22,7 +22,7 @@ module Jekyll
       else
         img_spans = @spans+
           "<div class='text-overlay' style='margin-top: #{@params[:offset]}px;'>
-            #{@params[:caption]}
+            <i>#{@params[:caption]}</i>
           </div>"
       end
       "<div class='large-#{@params[:cols]} columns image-columns'>#{img_spans}</div>"
