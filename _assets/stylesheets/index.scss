@@ -1,0 +1,49 @@
+.index h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+#index_anim .logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px; }
+
+$browsers: webkit moz o ' ';
+$anim_name: index;
+
+@function pretext($browser) {
+    $pretext: '-';           
+    $is_blank: $browser == ' ';
+    @if $is_blank == false {
+        $pretext: $pretext+$browser+'-' }
+    @return $pretext;
+}
+
+#index_anim {
+    @each $browser in $browsers {
+      #{pretext($browser)}animation-name: $anim_name;
+      #{pretext($browser)}animation-duration: 2s;
+      #{pretext($browser)}animation-iteration-count: infinite;
+      #{pretext($browser)}perspective: 800px;      
+    }
+}
+
+
+@mixin keyframes($browser) {
+    @if $browser == 'webkit' {
+        @-webkit-keyframes $anim_name { @content; } }
+    @else if $browser == 'moz' {
+        @-moz-keyframes $anim_name { @content; } }
+    @else if $browser == 'o' {
+        @-o-keyframes $anim_name { @content; } }
+    @else if $browser ==' ' {
+        @-keyframes $anim_name { @content; } }
+}
+
+@each $browser in $browsers {
+    @include keyframes($browser) {        
+        from { #{pretext($browser)}transform: rotateY(0deg); }
+        to   { #{pretext($browser)}transform: rotateY(360deg); }
+    }
+}

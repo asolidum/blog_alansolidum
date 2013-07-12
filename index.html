@@ -1,17 +1,19 @@
 ---
-layout: default
+layout: index
 title: Silicon Hale Site
 ---
-
-<div id="home">
-  <div class="posts">
-    {% for post in site.posts %}
-      {% case post.type %}
-        {% when 'image' %}
-          {% include image.html %}
-        {% when 'post' %}
-          {% include post.html %}
-       {% endcase %}
-    {% endfor %}
+<div class="index">
+  <div class="row">
+    <div class="columns">
+      <a href="photos.html"><h1>Photos</h1></a>
+    </div>
+    <div class="columns">  
+      <div id="index_anim">
+        <img class="logo" src="/images/logo.svg">
+      </div>
+    </div>
+    <div class="columns">    
+      <a href="projects.html"><h1>Projects</h1></a>
+    </div>
   </div>
 </div>

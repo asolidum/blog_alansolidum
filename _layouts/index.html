@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include meta.html %}
+    {% stylesheet app %}
+    <!--
+    <link href="http://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    -->
+    <script>
+      document.write('<script src=/js/vendor/'
+                              + ('__proto__' in {} ? 'zepto' : 'jquery')
+                              + '.js><\/script>');
+          $(document).ready(function() {
+          $(document).foundation(); });
+    </script>
+    {% javascript app %}
+    {% include google.html %}
+  </head>
+  <body>
+    {% include facebook.html %}
+    {{ content }}
+  </body>
+</html>
