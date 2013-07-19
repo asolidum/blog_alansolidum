@@ -1,4 +1,4 @@
-blog_original
+blog_alansolidum
 ===================
 
 Jekyll powered blog
@@ -23,22 +23,3 @@ To fork
 
 To pull from original: git fetch upstream
 To merge from original: git merge upstream/master
-
-For foundation - http://foundation.zurb.com/download.php#customizeFoundation
-=======
-* The Grid
-  * Num of Columns:  12
-  * Gutter: 1.875 em
-  * Max-Width: 62.5 em
-* Colors
-  * Primary Color: #2ba6cb
-  * Secondary Color: #e9e9e9
-  * Alert Color: #c60f13
-  * Success Color: #5da423
-  * Body Font Color: #999999
-  * Header Font Color: #999999
-* Global Radius
-  * Radius: 3 px
-  * Top Bar Breakpoint: 58.75 em
-* Text Direction
-  * Left-to-right
