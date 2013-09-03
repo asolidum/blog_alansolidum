@@ -4,7 +4,7 @@ module Jekyll
       super
       split_text = text.split(',', 2)
       @url = split_text[0]
-      @text = split_text[1] 
+      @text = split_text[1]
     end
 
     def render(context)

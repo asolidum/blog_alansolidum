@@ -8,7 +8,7 @@ module Jekyll
       super
       # Using eval okay cause we precompile the site before deploying
       @params = eval('{'+text+'}')
-      
+
       @params[:cols] ||= 24
       @params[:offset] ||= 0
       @params[:flickr_id] ||= "9131978755"
@@ -38,13 +38,13 @@ module Jekyll
       if !images[10].nil?
         span += get_flickr_image_span(images[10])
       end
-      span += get_flickr_image_span(images[9])            
+      span += get_flickr_image_span(images[9])
       span += get_flickr_image_span(images[8])
       span += get_flickr_image_span(images[7])
-      span += get_flickr_image_span(images[6])            
+      span += get_flickr_image_span(images[6])
       span += get_flickr_image_span(images[5])
       span += get_flickr_image_span(images[4])
-      span += get_flickr_image_span(images[3])      
+      span += get_flickr_image_span(images[3])
       span += "</span>"
       span
     end
@@ -53,7 +53,7 @@ module Jekyll
       "<span data-src='#{image['source']}' data-media='(min-width: #{image['width']}px)'></span>"
     end
   end
-    
+
 end
 
 Liquid::Template.register_tag('image_column', Jekyll::ImageColumnTag)
