@@ -4,7 +4,7 @@ title: 3 States in 3 Hours
 tags:
 - Travel
 status: publish
-type: post
+type: image
 published: true
 meta:
   _edit_lock: "1284928331"
