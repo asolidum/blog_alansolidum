@@ -7,24 +7,33 @@ title: About
 <h2><b>About me</b></h2>
 </div>
 </div>
-I'm a software engineer who has worked in various startups with projects ranging from robotics to satellite communications.  I worked at [Verance][verance] where I was a primary engineer in creating and deploying Confirmedia, a nationwide radio ad tracking system that utilized audio watermarking.  In Hawaii, I joined Nanopoint Imaging and helped develop the UI and hardware control layer of the cellTray Microfluidics and Imaging Systems.
+I'm a software engineer who has worked in various startups with projects ranging from robotics to satellite communications.  I worked at [Verance] where I was a primary engineer in creating and deploying Confirmedia, a nationwide radio ad tracking system that utilized audio watermarking.  In Hawaii, I joined [Nanopoint Imaging][nano] and helped develop the UI and hardware control layer of the cellTray Microfluidics and Imaging Systems.
 
-Some of my latest personal project achievements include the webapp, Contact Attack which took 3rd place in the Viadeo Developer Challenge. Along with Marion Ano and Bob Matcuk, I codeveloped the Loko Iʻa app, an IOS app that focuses on teaching the public about the history and restoration of He‘eia Fishpond. Myself along with [Mark Guillermo][mg], were also a top six finalist in the Campbell's API contest, [Hack the Kitchen][htk], with the product Recipe Remixed.
+Some of my latest personal project achievements include the webapp, [Contact Attack][ca] which took 3rd place in the [Viadeo Developer Challenge][via]. Along with Marion Ano and Bob Matcuk, I codeveloped the Loko Iʻa app, an IOS app that focuses on teaching the public about the history and restoration of He‘eia Fishpond. Myself along with [Mark Guillermo][mg], were also a top six finalist in the Campbell's API contest, [Hack the Kitchen][htk], with the product Recipe Remixed.
 
-I'm also interested in entrepreneurship and Hawaii technology growth.  I've participated in several startup weekends and currently serve on the Startup Weekend committee assisting in marketing and developer outreach.  I'm also an active board member in [HI Capacity][hicap] to help foster and build the local maker community.
+I'm also interested in entrepreneurship and Hawaii technology growth.  I've participated in several startup weekends and currently serve on the [Startup Weekend][sw] committee assisting in marketing and developer outreach.  I'm also an active board member in [HI Capacity] to help foster and build the local maker community.
 
-My other interests include surfing, photography, drones and 3D printing.
+My other interests include surfing, photography and creative technology.
 
 <div class="row">
 <div class="small-24 large-24 small-centered large-centered columns">
 <h2><b>About site</b></h2>
 </div>
 </div>
-Back in the day, this site used to be Wordpress running on Dreamhost servers.  Now it's developed with Jekyll and GitHub is running the site.  Our images are currently by served by Flickr.
+Back in the day, this site used to be [Wordpress] running on [Dreamhost] servers.  Now it's developed with [Jekyll] and running on [Github] servers.  Our images are currently by served by [Flickr].
 
 By moving away from Wordpress, this site runs noticably faster and is completely free.  I would highly recommend this solution for any developer interested in putting up a blog.
 
-[verance]: http://www.verance.com
-[hicap]: http://www.hicapacity.org
+[Verance]: http://www.verance.com
+[HI Capacity]: http://www.hicapacity.org
 [htk]: http://hackthekitchen.com
 [mg]: http://inmydna.com
+[Jekyll]: https://github.com/mojombo/jekyll
+[nano]: http://nanopointimaging.com
+[Wordpress]: http://wordpress.com
+[Dreamhost]: http://dreamhost.com
+[Flickr]: http://flickr.com
+[ca]: http://contactattack.com
+[via]: http://dev.viadeo.com/challenge
+[Github]: http://github.com
+[sw]: http://honolulu.startupweekend.org
