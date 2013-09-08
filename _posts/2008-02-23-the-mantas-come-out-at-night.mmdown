@@ -1,0 +1,57 @@
+---
+layout: post
+title: The Mantas come out at Night
+tags:
+- Action
+- Animals
+- Big Island
+- Hawaii
+- Kona
+- People
+- Underwater
+status: publish
+type: image
+published: true
+image: http://farm3.staticflickr.com/2884/9134269940_c6ba918c84_q.jpg
+---
+If you ever make it out to Kona on the Big Island,  a definite must-do is the Manta Ray Night Dive. Seeing these graceful creatures is totally worth it even if they can have wingspans of up to 30 feet and are closely related to sharks...  Huh?!? :speechless:
+
+
+The history of the manta ray encounters dates back to the early 70’s.  *Was I even born then?!?  hehe...* :blush: A hotel called the “Kona Surf” had bright lights that they pointed  towards the ocean and mantas showed up almost nightly.  In 1999, the Kona Surf Hotel closed and the lights were turned off. The manta rays soon found a new spot to congregate in a bay near the Kona airport where plankton concentrated in the late afternoon sun.  Fast forward to present day and this is now the spot where most mantas are going to on a nightly basis.
+
+So basically the divers' and snorkelers' bring lights to see the manta rays.  The lights attract the plankton. The manta rays eat the plankton. In other words, we are all out to witness a giant plankton slaughter... :P "The circle of life is now complete"
+
+Before we see the pictures of the plankton slaughter, I also have to say my ex-coworker, Min and I went during the midst of the whale migration.  I've been wanting to do some whale watching and my appetite was sated on our trek to the mantra ray dive location. We were fortunate to have sighted 5 whales!!!  Two of which breached at the same time.  Definitely a National Geographic moment.  Too bad I only brought a wide angle lens with me.  :x  One of the tour guides commented that of the 14 years that he's been working this tour, that was the best whale sighting he had ever seen.  To which I responded, of the TWO times that I've done this dive, that was the best I've ever seen...  Yeah we all know I can be a smart ass... :devil:
+
+So back to the main event...  These 15-20 foot wide manta pretty much come straight at you and back flip right in front of you (Click [here][khd] to see some amazing video of what I mean from our very capable diving crew).  The distance between you and the manta are a couple of feet, but it feels like they are inches away.  Luckily these gentle giants don't have a stinger and what could be classified as teeth aren't used for feeding.  However you would definitely feel it if one of these manta ran into you.
+
+Although my shots don't even come close to portraying the beauty of this event, here they are.... :?
+
+<div class="row image-row">
+{% image_column :cols=>"14", :flickr_id=>"9132035057", :offset=>"-30", :caption=>"Silhouette of school of fish" %}
+{% image_column :cols=>"10", :flickr_id=>"9134306750" %}
+</div>
+
+<div class="row image-row">
+{% image_column :cols=>"16", :flickr_id=>"9132081875", :caption=>"My friend Min photographing a manta" %}
+{% image_column :cols=>"8", :flickr_id=>"9134258036" %}
+</div>
+
+<div class="row image-row">
+{% image_column :cols=>"8", :flickr_id=>"9132050741", :caption=>"Manta Ray silhouette" %}
+{% image_column :cols=>"16", :flickr_id=>"9134278066", :offset=>"-30", :caption=>"The spots are unique (aka Manta ID)" %}
+</div>
+
+<!--
+$gASP->Image(430,0,230,230, "http://photography.alansolidum.com/site/wp-content/uploads/2008/02/Two-Mantas-stacked-on-top-of-each-other.jpg", "");
+$gASP->Image(430,240,230,230, "http://photography.alansolidum.com/site/wp-content/uploads/2008/02/Manta-Ray-coming-towards-camera.jpg", "");
+$gASP->Image(670,0,310,470, "http://photography.alansolidum.com/site/wp-content/uploads/2008/02/Two-mantas-swiming-right-next-to-each-other.jpg", "Two mantas swim next to each other");
+$gASP->Image(0,480,590,390, "http://photography.alansolidum.com/site/wp-content/uploads/2008/02/Snorkeler-taking-photo-of-Manta-Ray.jpg", "
+$gASP->Image(600,480,380,580, "http://photography.alansolidum.com/site/wp-content/uploads/2008/02/Manta-Ray.jpg", "I'm learning that using an unmodified flash isn't\nnecessarily the best thing underwater");
+-->
+
+I still haven't got the shot I'm looking for.   So if you decide to do this dive, let me know as I could easily be coaxed into doing it again.
+
+*Special thanks to Aaron and Daniel who helped with getting my photography equipment ready.   Although my shots don't do this dive any justice, they would've been virtually unusable without their assistance and advice. Thanks also to folks at [Kona Honu Divers][khd].  They are a highly professional outfit and really take care of you.*
+
+[khd]: http://www.konahonudivers.com
