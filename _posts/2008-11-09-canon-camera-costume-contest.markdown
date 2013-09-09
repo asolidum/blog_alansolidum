@@ -6,10 +6,7 @@ tags:
 - Check this out
 status: publish
 type: post
-published: true
-meta: 
-  _edit_lock: "1226443565"
-  _edit_last: "1"
+published: false
 image: http://www.instructables.com/static/img/header/header-robot.png
 ---
 Many of you know that last year I decided to go to dress as a Canon Camera for Halloween.  If that is news to you, then click <a href="http://being.alansolidum.com/blogs/2007/10/31/costume-starts-with-c/">here</a> if you would like to read more about that.

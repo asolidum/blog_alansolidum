@@ -11,6 +11,7 @@ tags:
 - Underwater
 status: publish
 type: image
+size: small
 published: true
 image: http://farm3.staticflickr.com/2884/9134269940_c6ba918c84_q.jpg
 ---
@@ -42,6 +43,12 @@ Although my shots don't even come close to portraying the beauty of this event, 
 {% image_column :cols=>"16", :flickr_id=>"9134278066", :offset=>"-30", :caption=>"The spots are unique (aka Manta ID)" %}
 </div>
 
+I still haven't got the shot I'm looking for.   So if you decide to do this dive, let me know as I could easily be coaxed into doing it again.
+
+*Special thanks to Aaron and Daniel who helped with getting my photography equipment ready.   Although my shots don't do this dive any justice, they would've been virtually unusable without their assistance and advice. Thanks also to folks at [Kona Honu Divers][khd].  They are a highly professional outfit and really take care of you.*
+
+[khd]: http://www.konahonudivers.com
+
 <!--
 $gASP->Image(430,0,230,230, "http://photography.alansolidum.com/site/wp-content/uploads/2008/02/Two-Mantas-stacked-on-top-of-each-other.jpg", "");
 $gASP->Image(430,240,230,230, "http://photography.alansolidum.com/site/wp-content/uploads/2008/02/Manta-Ray-coming-towards-camera.jpg", "");
@@ -49,9 +56,3 @@ $gASP->Image(670,0,310,470, "http://photography.alansolidum.com/site/wp-content/
 $gASP->Image(0,480,590,390, "http://photography.alansolidum.com/site/wp-content/uploads/2008/02/Snorkeler-taking-photo-of-Manta-Ray.jpg", "
 $gASP->Image(600,480,380,580, "http://photography.alansolidum.com/site/wp-content/uploads/2008/02/Manta-Ray.jpg", "I'm learning that using an unmodified flash isn't\nnecessarily the best thing underwater");
 -->
-
-I still haven't got the shot I'm looking for.   So if you decide to do this dive, let me know as I could easily be coaxed into doing it again.
-
-*Special thanks to Aaron and Daniel who helped with getting my photography equipment ready.   Although my shots don't do this dive any justice, they would've been virtually unusable without their assistance and advice. Thanks also to folks at [Kona Honu Divers][khd].  They are a highly professional outfit and really take care of you.*
-
-[khd]: http://www.konahonudivers.com
