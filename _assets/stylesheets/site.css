@@ -44,8 +44,8 @@ div .index-image img {
 @media only screen {
     .index-small {
         position: relative;
-        width: 50%;
-        padding-bottom: 50%; }
+        width: 16.67%;
+        padding-bottom: 16.67%; }
 
     .index-large {
         position: relative;
@@ -56,8 +56,8 @@ div .index-image img {
 @media only screen and (min-width: 48em) {
     .index-small {
         position: relative;
-        width: 33.33333%;
-        padding-bottom: 33.33333%; }
+        width: 16.67%;
+        padding-bottom: 16.67%; }
 
     .index-large {
         position: relative;

@@ -58,6 +58,33 @@ div .index-image img {
     position: absolute;
     left: 0; }
 
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+    .index-small {
+        position: relative;
+        width: 25%;
+        padding-bottom: 25%; }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+    .index-small {
+        position: relative;
+        width: 50%;
+        padding-bottom: 50%; }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) {
+/* Styles */
+    .index-small {
+        position: relative;
+        width: 20%
+        padding-bottom: 20%; }
+}
+/*
 @media only screen {
     .index-small {
         position: relative;
@@ -81,6 +108,7 @@ div .index-image img {
         width: 66.66667%;
         padding-bottom: 66.66667%; }
 }
+*/
 
 .posts a {
     color: #999; }
