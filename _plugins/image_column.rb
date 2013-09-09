@@ -28,13 +28,17 @@ module Jekyll
       "<div class='large-#{@params[:cols]} columns image-columns'>#{img_spans}</div>"
     end
 
-    def get_flickr_spans(id)
+    def get_flickr_images(id)
       api_key = "326962bdfea628002a66395ff0fb4251"
       uri = "http://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=#{api_key}&photo_id=#{id}&format=json"
-#=begin
       resp = Net::HTTP.get(URI.parse(uri))
       parsed = JSON.parse(resp[14..-2])
-      images = parsed["sizes"]["size"]
+      parsed["sizes"]["size"]
+    end
+
+    def get_flickr_spans(id)
+#=begin
+      images = get_flickr_images(id)
 #=end
       span = "<span data-picture>"
 #=begin
