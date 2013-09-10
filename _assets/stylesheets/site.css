@@ -48,14 +48,14 @@ div .index-image img {
         padding-bottom: 16.67%; }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 599px) {
+@media only screen and (min-width: 361px) and (max-width: 599px) {
     .index-small {
         position: relative;
         width: 25%;
         padding-bottom: 25%; }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
     .index-small {
         position: relative;
         width: 50%;
