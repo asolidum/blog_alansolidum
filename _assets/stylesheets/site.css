@@ -41,38 +41,29 @@ div .index-image img {
     position: absolute;
     left: 0; }
 
-@media only screen {
+@media only screen and (min-width: 600px) {
     .index-small {
         position: relative;
         width: 16.67%;
         padding-bottom: 16.67%; }
-
-    .index-large {
-        position: relative;
-        width: 100%;        
-        padding-bottom: 100%; }    
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 321px) and (max-width: 599px) {
     .index-small {
         position: relative;
-        width: 16.67%;
-        padding-bottom: 16.67%; }
+        width: 25%;
+        padding-bottom: 25%; }
+}
 
-    .index-large {
+@media only screen and (max-width: 320px) {
+    .index-small {
         position: relative;
-        width: 66.66667%;
-        padding-bottom: 66.66667%; }
+        width: 50%;
+        padding-bottom: 50%; }
 }
 
 .posts a {
     color: #999; }
-
-/*
-.posts img {
-    display: block;
-    width: 100%; }
-*/
 
 header {
     margin-bottom: 10px;
