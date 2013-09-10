@@ -77,7 +77,7 @@ div .index-image img {
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) {
+@media only screen and (min-width: 48em) {
 /* Styles */
     .index-small {
         position: relative;
