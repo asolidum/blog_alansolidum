@@ -2,6 +2,7 @@ name: Alan Solidum Blog
 pygments: true
 timezone: Pacific/Honolulu
 smileytheme: MSN
+baseurl: "http://www.alansolidum.com"
 
 assets:
   compress:
