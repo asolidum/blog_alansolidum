@@ -37,11 +37,11 @@ module Jekyll
     end
 
     def get_flickr_spans(id)
-#=begin
+=begin
       images = get_flickr_images(id)
-#=end
+=end
       span = "<span data-picture>"
-#=begin
+=begin
       if !images[10].nil?
         span += get_flickr_image_span(images[10])
       end
@@ -52,7 +52,7 @@ module Jekyll
       span += get_flickr_image_span(images[5])
       span += get_flickr_image_span(images[4])
       span += get_flickr_image_span(images[3])
-#=end
+=end
       span += "</span>"
       span
     end
