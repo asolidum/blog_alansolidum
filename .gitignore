@@ -24,7 +24,4 @@
 # Mac Os files
 .DS_Store
 
-# Dev vs Production
-_plugins/image_column.rb
-
 # Jekyll files

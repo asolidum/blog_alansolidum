@@ -3,6 +3,7 @@ pygments: true
 timezone: Pacific/Honolulu
 smileytheme: MSN
 baseurl: "http://www.alansolidum.com"
+production: true
 
 assets:
   compress:
