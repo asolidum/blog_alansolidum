@@ -31,15 +31,14 @@ module Jekyll
     def get_flickr_images(id)
       api_key = "326962bdfea628002a66395ff0fb4251"
       uri = "http://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=#{api_key}&photo_id=#{id}&format=json"
-#      resp = Net::HTTP.get(URI.parse(uri))
-#      parsed = JSON.parse(resp[14..-2])
-#      parsed["sizes"]["size"]
+      resp = Net::HTTP.get(URI.parse(uri))
+      parsed = JSON.parse(resp[14..-2])
+      parsed["sizes"]["size"]
     end
 
     def get_flickr_spans(id)
       images = get_flickr_images(id)
       span = "<span data-picture>"
-=begin
       if !images[10].nil?
         span += get_flickr_image_span(images[10])
       end
@@ -50,7 +49,6 @@ module Jekyll
       span += get_flickr_image_span(images[5])
       span += get_flickr_image_span(images[4])
       span += get_flickr_image_span(images[3])
-=end
       span += "</span>"
       span
     end
